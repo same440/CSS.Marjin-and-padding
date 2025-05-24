@@ -1,0 +1,39 @@
+/* সব উপাদানের margin ও padding 0 করে দিচ্ছি */
+/* Resetting default margin and padding for all elements */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/*
+.parent {
+  background-color: blueviolet;  /* ব্যাকগ্রাউন্ড রঙ বেগুনি | Background color is blueviolet */
+
+  margin-top: 50px;              /* উপরে ৫০px মার্জিন | Top margin is 50px */
+  padding-top: 50px;             /* উপরে ৫০px প্যাডিং | Top padding is 50px */
+
+  margin-left: 50px;             /* বামে ৫০px মার্জিন | Left margin is 50px */
+  padding-left: 50px;            /* বামে ৫০px প্যাডিং | Left padding is 50px */
+
+  padding-right: 50px;           /* ডানে ৫০px প্যাডিং | Right padding is 50px */
+  padding-bottom: 70px;          /* নিচে ৭০px প্যাডিং | Bottom padding is 70px */
+  margin-right: 50px;            /* ডানে ৫০px মার্জিন | Right margin is 50px */
+}
+*/
+
+/* বর্তমান .parent ক্লাসের স্টাইল নিচে দেওয়া হয়েছে */
+/* Current styles for the .parent class */
+.parent {
+  background: yellow;       /* ব্যাকগ্রাউন্ড রঙ হলুদ | Background color is yellow */
+
+  width: 70px;              /* (অপ্রয়োজনীয়) নির্দিষ্ট প্রস্থ ৭০px | Fixed width 70px (will be overridden) */
+  width: 92%;               /* প্রস্থ কনটেইনারের ৯২% | Width is 92% of the container */
+
+  margin: 20px auto;        /* উপর-নিচে ২০px, বাম-ডানে auto = সেন্টারে অবস্থান | 20px margin top-bottom, centered horizontally */
+
+  padding: 2%;              /* সব পাশে ২% প্যাডিং | 2% padding on all sides */
+
+  /* নিচের লাইনে প্রস্থের সর্বোচ্চ এবং সর্বনিম্ন সীমা উল্লেখ করা হয়েছে (বর্তমানে বন্ধ করা আছে) */
+  /* max-width: 1140px; */  /* সর্বোচ্চ প্রস্থ ১১৪০px | Maximum width is 1140px */
+  /* min-width: 500px; */   /* সর্বনিম্ন প্রস্থ ৫০০px | Minimum width is 500px */
+}
